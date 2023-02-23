@@ -1,14 +1,11 @@
 #include "main.h"
-
 /**
- * print_line - function
- *
- * Return: 0
- */
-
-void print_line(void)
+  * print_line - function that prints a straight line
+  * @n: takes in an integer
+  */
+void print_line(int n)
 {
-	int  n;
+	int i;
 
 	for (i = 0; i < n; i++)
 	{
