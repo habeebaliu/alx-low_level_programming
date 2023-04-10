@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * get_endianness - Check the endianness.
+ * get_endianness - Checks the endianness.
  *
- * Return: if big-endians - 0.
- * If little-endian - 1.
- *
+ * Return: If big-endian - 0.
+ *         If little-endian - 1.
  */
 int get_endianness(void)
 {
